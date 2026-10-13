@@ -4,8 +4,8 @@ function App() {
   return (
 
     <main>
-      <h1>Your Name</h1>
-      <h2>Senior Capstone Production Platform</h2>
+      <h1>Henry Tan</h1>
+      <h2>Senior Capstone Production Platform Test</h2>
   
       <p>This site will present my software projects, engineering decisions, and production systems.</p>
       <p>Initial frontend setup in progress.</p>
