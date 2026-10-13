@@ -5,7 +5,7 @@ function App() {
 
     <main>
       <h1>Henry Tan</h1>
-      <h2>Senior Capstone Production Platform Test</h2>
+      <h2>Senior Capstone Production Platform Cloudflare Test</h2>
   
       <p>This site will present my software projects, engineering decisions, and production systems.</p>
       <p>Initial frontend setup in progress.</p>
