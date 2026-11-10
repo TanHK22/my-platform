@@ -1,7 +1,21 @@
 import './App.css'
 import ProfileIcon from './assets/ProfileIcon.jpg'
 
+type ReportKind = "bug" | "feature";
+
+type Report = {
+	id: string
+	text: string
+	kind : ReportKind
+}
+
 function App() {
+	const sampleReport: Report = {
+		id: "1",
+		text: "Navigation link is broken",
+		kind: "bug",
+	}
+
 	return (
 		<main>
 			<header>
@@ -17,6 +31,11 @@ function App() {
 				<p>This site will serve as a record of my individual tasks for COMP 451.</p>
 					<br></br>
 				<img src = { ProfileIcon } alt = "A Happy Raccoon"/>
+			</section>
+
+			<section className = "report-board">
+				<h2>Bugs & Feature Requests</h2>
+				<p>{ sampleReport.text } ({ sampleReport.kind })</p>
 			</section>
     	</main>
   	)
